@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/DerejeKitaw/node_cli/issues"
   },
-  "homepage": "https://github.com/DerejeKitaw/node_cli#readme"
+  "homepage": "https://github.com/DerejeKitaw/node_cli#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "mongoose": "^5.2.14"
+  }
 }

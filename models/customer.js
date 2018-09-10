@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Custommer schema
+// Customer schema
 const customSchema = mongoose.Schema({
   firstname: { type: String },
   lastname: { type: String },
@@ -9,4 +9,4 @@ const customSchema = mongoose.Schema({
 });
 
 // Define and export
-module.export = mongoose.model('Customert', customSchema);
+module.export = mongoose.model('Customer', customSchema);
