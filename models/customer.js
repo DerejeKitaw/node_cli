@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Customer schema
-const customSchema = mongoose.Schema({
+const customerSchema = mongoose.Schema({
   firstname: { type: String },
   lastname: { type: String },
   phone: { type: String },
@@ -9,4 +9,4 @@ const customSchema = mongoose.Schema({
 });
 
 // Define and export
-module.export = mongoose.model('Customer', customSchema);
+module.exports = mongoose.model('Customer', customerSchema);
